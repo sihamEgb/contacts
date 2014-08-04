@@ -1,0 +1,147 @@
+@CHARSET "UTF-8";
+
+
+header {
+	width:100%;
+	height:80px;
+	background:#d1e0e1;
+	color: #333;
+	font-weight: bold;
+	font-size: 20px;
+	text-align:center;
+	line-height: 80px;
+}
+
+footer {
+   width:100%;
+   height:60px; 
+   background:#d1e0e1;
+   font-size: 12px;
+   text-align:center;
+   line-height: 80px;
+   margin-top:30px;
+}
+
+
+section {
+	margin:20px 0 0 20px;
+}
+
+nav {
+	margin:15px 0 10px 0;
+}
+
+label {
+	display: block;
+	padding: 8px 0 8px 0;
+	color: #333;
+}
+
+input {
+	border-radius: 3px;
+	height: 24px;
+	border: 1px solid #AAA;
+	padding: 0 7px;
+}
+
+input.large {
+	width: 400px;
+}
+
+select {
+	border: 1px solid #AAA;
+	overflow: hidden;
+	margin-right: 15px;
+	width: 200px;
+}
+
+
+h1{
+    text-align: left;
+    font-family: 'Verdana';
+    padding: 20px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e3e3e3;
+    font-size: 20px;
+    border-radius: 5px;
+    }
+
+.container {
+    opacity: 0.5;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 80%;
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+.contact {
+    padding: 20px;
+    color: black;
+    text-align: left;
+    font-family: monospace, serif;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+    border-style: ridge;
+    border-width: thin;
+
+}
+.contact-box{
+    border-style:groove;
+    padding: 4px;
+    border-radius: 5px;
+    border-bottom: solid;
+}
+
+.photo {
+    position: relative;
+    display: flex;
+    float: left;
+    border-style:groove;
+    border-width: thin;
+    margin: auto;
+
+    width: 20%;
+    background-color: #d7c5db;
+}
+.contact-info{
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+ul{
+    list-style-image: url('');
+    list-style-type:none ;
+}
+
+.name{
+    transition: font-size 2s;
+}
+.name:hover {
+    font-size: 30px;
+}
+
+.phone {
+    font-family: cursive;
+    transition: font-size 2s;
+}
+.phone:hover {
+    font-size: 30px;
+}
+.mail{
+    transition: font-size 2s;
+}
+.mail:hover {
+    color: blue;
+    font-size: 30px;
+}
+form{
+    padding: 20px;
+}
+
